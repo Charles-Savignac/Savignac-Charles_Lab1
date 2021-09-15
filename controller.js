@@ -93,8 +93,8 @@ exports.factorial = function (req, res) {
 
     var value = 1,
         error = '',
-        n = parsed.n
-    response = '';
+        n = parsed.n,
+        response = '';
 
     if (isNaN(n)) {
         error = "\'n\' is not a number"
