@@ -199,8 +199,17 @@ exports.invalidNumberOfParam = function(req, res) {
 const availableEndpoints = [
     {
         method: "GET",
-        getCours: "api/maths"
+        getCours: "/api/maths"
     },
 ];
 
-const availableOperators = ['+', '-', '/', '*', '%', '!', 'p', 'np'];
+const availableOperators = [
+    '?op=+&x=1&y=1', 
+    '?op=-&x=1&y=1', 
+    '?op=/&x=1&y=1', 
+    '?op=*&x=1&y=1', 
+    '?op=%&x=1&y=1', 
+    '?op=!&n=1', 
+    '?op=p&n=1', 
+    '?op=np&n=1'
+];
