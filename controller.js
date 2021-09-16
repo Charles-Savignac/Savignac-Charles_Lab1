@@ -20,7 +20,7 @@ function getAnswer(x, y, op) {
         ];
     }
     else if (isNaN(x)) {
-        error = "\'x\' parameter si not a numbers"
+        error = "\'x\' parameter is not a numbers"
 
         return [
             {
@@ -32,7 +32,7 @@ function getAnswer(x, y, op) {
         ];
     }
     else if (isNaN(y)) {
-        error = "\'y\' parameter si not a numbers"
+        error = "\'y\' parameter is not a numbers"
 
         return [
             {
